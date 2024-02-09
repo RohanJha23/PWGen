@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PW Generator</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <h2 > Your Password is:</h2>
+        <div class="pwDisplay">
+        <h1 id="pwOutput">Chicka Chicka Slim Shady</h1>
+        </div>
+        <label for="numInput">Enter Length of Password</label>
+        <br>
+        <input type="number" id="pwInput">
+        <br>
+        <h4 id="Warning"> Please Select at Least one checkbox & enter a Value!</h4>
+        <br>
+        <button type="submit" id="submitBtn">Submit!</button>
+        <br>
+        <br>
+        <div class="checkBoxes">
+            <div class="upperCheck">
+        <label for="upperCheck">Contains UpperCase Characters</label>
+        <input type="checkbox" id="upperCheck" !checked>
+        </div>
+        <br>
+        <div class="lowerCheck">
+        <label for="lowerCheck">Contains LowerCase Characters</label>
+        <input type="checkbox" id="lowerCheck" !checked>
+        </div>
+        <br>
+        <div class="numCheck">
+        <label for="numCheck">Number</label>
+        <input type="checkbox" id="numCheck" !checked>
+        </div>
+        <br>
+        <div class="symCheck">
+        <label for="symCheck">Symbols</label>
+        <input type="checkbox" id="symCheck" !checked>
+        </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

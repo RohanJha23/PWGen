@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Warning{
+    display: none;
+    justify-content: center;
+}
+
+.mainContainer{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.pwDisplay{
+    background-color: purple;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+.checkBoxes{
+    
+}
+
+.upperCheck{
+    display: flex;
+    justify-content: space-between;
+}
+.lowerCheck{
+    display: flex;
+    justify-content: space-between;
+}
+.numCheck{
+    display: flex;
+    justify-content: space-between;
+}
+.symCheck{
+    display: flex;
+    justify-content: space-between;
+}
