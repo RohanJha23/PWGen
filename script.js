@@ -16,9 +16,15 @@ var symCheck = document.getElementById("symCheck");
 var pwVal = document.getElementById("pwInput");
 var submitButton  = document.getElementById("submitBtn");
 var pwOutput = document.getElementById("pwOutput");
+var pwNumber = document.getElementById("pwValue");
 // Example function to check the status of checkboxes
 
+function initial(){
+    pwNumber.innerHTML = pwVal.value;
+}
+setInterval(initial,10);
 function main() {
+    
     // Check if at least one checkbox is checked and password length is provided
     if ((upperCheck.checked || lowerCheck.checked || numCheck.checked || symCheck.checked) && (pwVal.value) &&(pwVal.value<16)) {
         document.getElementById("Warning").style.display = "none"; // Hide the warning message
